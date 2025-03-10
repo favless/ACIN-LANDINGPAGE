@@ -1,0 +1,69 @@
+@media screen and (max-width: 1210px) {
+    .section-center img {
+        display: none;
+    }
+
+    .section-center {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 50px !important;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .section-center {
+        padding: 10px !important;
+    }
+}
+
+section {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 1000px;
+
+    background-color: black;
+}
+
+.section-center {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+
+    width: var(--page-width);
+}
+
+.section-center img {
+    width: 100%;
+}
+
+.section-center > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 5rem;
+    color: white;
+
+    font-family: 'Futura';
+}
+
+p {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Futura Book';
+}
+
+.text-link {
+    color: rgb(211, 200, 168);
+    font-size: 2rem;
+    font-family: 'Futura Book';
+}

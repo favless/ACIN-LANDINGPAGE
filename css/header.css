@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+:root {
+    --page-width: 1800px
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('/resources/font/FuturaBT-BoldItalic.eot');
+    src: url('/resources/font/FuturaBT-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/resources/font/FuturaBT-BoldItalic.woff2') format('woff2'),
+        url('/resources/font/FuturaBT-BoldItalic.woff') format('woff'),
+        url('/resources/font/FuturaBT-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Book';
+    src: url('/resources/font/FuturaBT-Book.eot');
+    src: url('/resources/font/FuturaBT-Book.eot?#iefix') format('embedded-opentype'),
+        url('/resources/font/FuturaBT-Book.woff2') format('woff2'),
+        url('/resources/font/FuturaBT-Book.woff') format('woff'),
+        url('/resources/font/FuturaBT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+header {
+    width: 100dvw;
+    height: 100px;
+
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+
+    z-index: 5;
+}
+
+.header-center {
+    width: var(--page-width);
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0px 10px;
+}
+
+.header-center > div {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    padding: 0px 20px;
+    font-family: 'Futura Book';
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.discord-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.discord-link svg {
+    display: block;
+    height: 60%;
+}
+
+.logo-a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Futura';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3rem;
+
+    padding-right: 30px;
+}
+
+.logo-a img {
+    display: block;
+    height: 100%;
+}

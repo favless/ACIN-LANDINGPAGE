@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/resources/mainbg.png);
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.main-center {
+    width: var(--page-width);
+    background-image: url(/resources/main.png);
+    background-size: contain;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    aspect-ratio: 16 / 9;
+}
+
+.slideshow {
+    width: 45%;
+    height: 50%;
+    position: relative;
+}
+
+.slideshow img {
+    position: absolute; /* Overlap images */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    z-index: 1;
+}
+
+#img2 {
+    z-index: 2;
+    opacity: 0;
+}
+
