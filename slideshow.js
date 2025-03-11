@@ -30,5 +30,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 1000); // Matches transition time
     }
 
-    setInterval(changeImage, 7000); // Change image every 3 seconds
+    setInterval(changeImage, 6000); // Change image every 3 seconds
 });
