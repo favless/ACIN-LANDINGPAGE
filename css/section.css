@@ -30,6 +30,10 @@
     .discord-link svg {
         height: 45% !important;
     }
+
+    .logo-a span {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 655px) {
