@@ -27,12 +27,12 @@
         padding: 10px !important;
     }
 
-    .discord-link svg {
-        height: 45% !important;
-    }
-
     .logo-a span {
         display: none;
+    }
+
+    .header-center {
+        padding: 0px;
     }
 }
 
