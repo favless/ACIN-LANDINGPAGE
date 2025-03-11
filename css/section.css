@@ -26,6 +26,10 @@
     .section-center {
         padding: 10px !important;
     }
+
+    .discord-link svg {
+        height: 45% !important;
+    }
 }
 
 @media screen and (max-width: 655px) {

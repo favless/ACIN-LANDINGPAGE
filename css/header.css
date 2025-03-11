@@ -69,6 +69,10 @@ header {
     font-size: 1.5rem;
 }
 
+.header-link:hover {
+    font-weight: 700;
+}
+
 .discord-link {
     display: flex;
     justify-content: center;
